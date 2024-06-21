@@ -1,0 +1,14 @@
+Automate Message Exchange between Servers using Terraform, SNS, SQS, and Python
+AWS Account A (SNS)                                     AWS Account B (SQS)
+Script running on ec2 (server A)                        Script running on ec2 (server B)
+                                                         
+S3 Bucket
+
+1. Build all necessary resources using terraform v1
+2. Use Amazon linux 2 for OS
+3. Create a Python script to run in server A that publishes a "Hello from server A at <YYYY- MM-DD-HH:MM:SS>" message to the SNS topic
+4. Subscribe the SQS queue to the SNS topic
+5. Create a python script to run in server B to watch for messages in the SQS queue and receive the message when available in the queue.
+6. Write the contents of the message to a text file with YYYY-MM-DD-HH:MM:SS- message.log as the file name.
+7. Timestamp used in the filename should reflect the timestamp as received in the message body
+8. Upload YYYY-MM-DD-HH:MM:SS-message.log to S3 bucket in Account A

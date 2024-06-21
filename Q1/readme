@@ -1,0 +1,9 @@
+Build basic webserver running on ec2
+• Launch an ec2 instance using Amazon Linux
+• Install and run a web server (Apache, Ngnix etc. of your choice)
+  Deploy a basic "Hello World" html page as the homepage of the webserver.
+• All infrastructure provisioning to be done using terraform and configurations must be fully automated without logging into the ec2 instance or using SSH.
+
+Note: Participants in the Skills Assessment are required to utilize their personal GitHub accounts for the exercise and submit the repository link upon completion.
+ If you are unable to finish within the allotted 5 hours, you are permitted additional time to test your code. Please inform us when you are ready for the 
+ review process.

@@ -1,0 +1,6 @@
+Write Bash shell for following scenario.
+• Launch an ec2 instance using Amazon Linux
+  Install and run tomcat service.
+• Write a bash shell script to validate if Tomcat running and if it's not start it. • Schedule the shell script to start tomcat service at 6AM every weekday.
+Note: Participants in the Skills Assessment are required to utilize their personal GitHub accounts for the exercise and submit the repository link upon completion.
+If you are unable to finish within the allotted 5 hours, you are permitted additional time to test your code. Please inform us when you are ready for the review process.

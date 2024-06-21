@@ -1,0 +1,4 @@
+Write bash or power shell script for following scenario.
+Given an input file, replace all occurrences of "SEARCH" with “REPLACE”, and output the new file with ".new" extension.
+Note: Participants in the Skills Assessment are required to utilize their personal GitHub accounts for the exercise and submit the repository link upon completion. If you are unable to finish within the allotted 5 hours, 
+you are permitted additional time to test your code. Please inform us when you are ready for the review process.
